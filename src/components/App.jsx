@@ -1,16 +1,21 @@
+import { GlobalStyle } from './GlobalStyle';
+import { Contacts } from './Contacts/Contacts';
+import { NameInput } from './NameInput/NameInput';
+import { Filter } from './Filter/Filter';
+import { Container } from './GlobalStyle';
+
+
 export const App = () => {
+ 
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Container>
+      <h1>Phonebook</h1>
+      <NameInput />
+      <h2>Contacts</h2>
+      <Filter />
+      <Contacts />
+      <GlobalStyle />
+    </Container>
   );
 };
+
