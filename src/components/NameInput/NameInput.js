@@ -44,13 +44,13 @@ export const NameInput = () => {
       <StyledForm>
         <label>
           Name
-          <Field type="text" name="name" placeholder="Name" />
+          <Field type="text" name="name" placeholder=" Name" />
           <ErrorMessage name="name" />
         </label>
 
         <label>
           Number
-          <Field type="tel" name="number" placeholder="Number" />
+          <Field type="tel" name="number" placeholder=" + Number" />
           <ErrorMessage name="number" />
         </label>
         <button type="submit">Add contact</button>

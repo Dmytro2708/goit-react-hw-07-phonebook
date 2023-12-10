@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 
 export const FilterInput = styled.input`
-  margin-top: 15px;
-  width: 200px;
+  width: 300px;
   border-radius: 20px;
-  padding: 0 4px;
+  padding: 4px;
 `;
