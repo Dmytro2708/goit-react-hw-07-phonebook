@@ -19,7 +19,7 @@ export const Contacts = () => {
           {filteredContacts.map(e => (
             <ContactEl key={e.id}>
               <p>
-                {e.name}: {e.phone}
+                {e.name}: {e.number}
               </p>
               <button
                 type="button"
